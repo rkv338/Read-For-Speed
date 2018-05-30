@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ReadForSpeed</string>
+    <string-array name = "speed">
+        <item>Speed</item>
+        <item>400 words/min</item>
+        <item>500 words/min</item>
+        <item>600 words/min</item>
+        <item>700 words/min</item>
+    </string-array>
 </resources>
