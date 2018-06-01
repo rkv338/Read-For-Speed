@@ -14,7 +14,7 @@ public class Reading extends AppCompatActivity {
 
     Button b2;
     EditText e2;
-    private int interval = 150;
+    private int interval;
     private Handler h;
     String[] gArr;
     Spinner speedChoice;
@@ -24,6 +24,7 @@ public class Reading extends AppCompatActivity {
         setContentView(R.layout.activity_reading);
         h = new Handler();
         b2 = (Button) findViewById(R.id.button2);
+
         e2 = (EditText) findViewById(R.id.editText2);
         speedChoice = (Spinner) findViewById(R.id.spinner);
         ArrayAdapter<String> adapter =  new ArrayAdapter<String>(this,
