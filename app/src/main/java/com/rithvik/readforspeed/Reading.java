@@ -86,6 +86,9 @@ public class Reading extends AppCompatActivity {
             case 2: return 500.0;
             case 3: return 600.0;
             case 4: return 700.0;
+            case 5: return 800.0;
+            case 6: return 900.0;
+            case 7: return 1000.0;
         }
         return index * 1.0;
     }

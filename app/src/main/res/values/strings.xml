@@ -6,5 +6,8 @@
         <item>500 words/min</item>
         <item>600 words/min</item>
         <item>700 words/min</item>
+        <item>800 words/min</item>
+        <item>900 words/min</item>
+        <item>1000 words/min</item>
     </string-array>
 </resources>
