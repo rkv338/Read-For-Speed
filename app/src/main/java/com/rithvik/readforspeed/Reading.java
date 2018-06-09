@@ -56,7 +56,7 @@ public class Reading extends AppCompatActivity {
                     index++;
                 }
                 else {
-                    recreate();
+                    e2.clearComposingText();
                 }
             }
             finally {

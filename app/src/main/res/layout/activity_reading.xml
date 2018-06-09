@@ -13,7 +13,7 @@
         android:layout_marginTop="91dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Text here"
+        android:hint = "Type your text here"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
