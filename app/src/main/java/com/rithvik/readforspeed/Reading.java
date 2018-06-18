@@ -10,14 +10,25 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-public class Reading extends AppCompatActivity {
+import org.apache.pdfbox.cos.COSDocument;
+import org.apache.pdfbox.pdfparser.PDFParser;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 
+
+public class Reading extends AppCompatActivity {
+    PDFParser pparser;
+    PDDocument pd;
+    COSDocument cD;
+    PDFTextStripper pdt;
     Button b2;
     EditText e2;
     private int interval;
     private Handler h;
     String[] gArr;
     Spinner speedChoice;
+
+    String file = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
